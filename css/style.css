@@ -1,0 +1,33 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1024px;
+	position: relative;
+	margin: 2em auto;
+}
+
+.left-column{
+	display: inline-block;
+	width: 15em;
+	left: 0;
+	top: 0;
+	min-height: 500px;
+	padding-right: 1em;
+	background-color: lightgray;
+	border-right: 2px solid black;
+}
+
+.right-column{
+	display: inline-block;
+	background-color: lightgray;
+	min-height: 500px;
+	width: 30em;
+	right: 16em;
+	border-left: 2px solid black;
+}
+
+img{
+	max-width: 100%;
+}
